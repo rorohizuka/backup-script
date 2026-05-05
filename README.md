@@ -30,5 +30,42 @@ Run the script in the directory containing `.log` files.
 ・.log ファイルがない場合はno log files と表示
 ・開始時刻と終了時刻を表示
 
+---
+# csv-count.sh
 
+## Overview
+Count occurences of values in the first column of a CSV file.
+
+## Usage
+```bash
+./csv-count.sh data.csv
+
+## Behavior
+- Extracts the first column
+- Counts occurrences
+- Sorts by frequency (descending)
+
+## Example
+
+Input (data.csv):
+apple
+banana
+apple
+
+Output:
+2 apple
+1 banana
+
+---
+
+##　概要
+CSVの１列目の値をカウントして、多い順に表示します。
+
+##　使い方
+./csv-count.sh data.csv
+
+## 動作
+・１列目を抽出
+・出現回数をカウント
+・多い順にソート
 
