@@ -69,3 +69,26 @@ CSVの１列目の値をカウントして、多い順に表示します。
 ・出現回数をカウント
 ・多い順にソート
 
+---
+
+# CSV Filter Script
+
+## Overview
+
+Simple Bash script to filter CSV data using grep.
+
+## Usage
+
+```bash
+./csv-filter.sh data.csv Berlin
+
+## Example Output
+
+John,25,Berlin
+Anna,31,Berlin
+
+## Features
+- Filter CSV rows
+- Simle Bash + grep
+- Fast command line usage
+
