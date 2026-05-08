@@ -92,3 +92,27 @@ Anna,31,Berlin
 - Simle Bash + grep
 - Fast command line usage
 
+---
+
+# Empty Line Check Script
+
+## Overview
+
+Simple Bash script to detect empty lines in a file using grep.
+
+## Usage
+
+```bash
+./empty-line-check.sh sample.csv
+
+##Example Output
+
+5:
+
+## Features
+- Detect empty lines
+- Show line numbers
+- Simple Bash + grep
+- Useful for CSV cleanup
+
+
